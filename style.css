@@ -1,0 +1,156 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    font-size: large;
+}
+
+.intro-container {
+    padding: 8%;
+    background-color: gray;
+    color: black;
+}
+
+#intro {
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.description {
+    text-align: center;
+    font-size: large;
+}
+
+.main-intro {
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.main-details {
+    display: grid;
+    text-align: center;
+    background-color: black;
+    color: red;
+    font-size: large;
+}
+
+.about-img {
+    width: 400px;
+    margin-left: 25%;
+}
+
+.closing-container {
+    padding: 50px;
+    display: grid;
+}
+
+.outro {
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.goodbye {
+    text-align: center;
+    font-size: large;
+}
+
+.header {
+    padding: 8%;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    color: red;
+    width: 364px;
+    margin-left: 30%;
+}
+
+.contact-container {
+    background-color: black;
+    text-align: center;
+    display: grid;
+    width: 600px;
+    margin-left: 30%;
+    border: 5px orangered solid;
+    padding: 10px;
+}
+
+.form-container {
+    display: grid;
+    background-color: gray;
+    color: blue;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.hobbies-intro-container {
+    display: grid;
+    padding: 8%;
+    text-align: center;
+    font-size: large;
+}
+
+.hobbies-intro {
+    text-decoration: underline;
+}
+
+.hobbies-main-container {
+    background-color: gray;
+    display: grid;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.hobby-img {
+    width: 600px;
+}
+
+.hobbies-outro {
+    display: grid;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+    color: red;
+}
